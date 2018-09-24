@@ -512,11 +512,11 @@
 	-- limit to only show 5 results
 
 --A taste of things to come
-#Submit the code in the editor and inspect the results.
-SELECT title, imdb_score
-FROM films
-JOIN reviews
-ON films.id = reviews.film_id
-WHERE title = 'To Kill a Mockingbird';
+	#Submit the code in the editor and inspect the results.
+	SELECT title, imdb_score
+	FROM films
+	JOIN reviews
+	ON films.id = reviews.film_id
+	WHERE title = 'To Kill a Mockingbird';
 
 
